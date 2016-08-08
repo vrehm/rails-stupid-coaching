@@ -1,0 +1,18 @@
+<div class="wrapper-astra text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+        <blockquote>
+          <p><%= params[:query] %></p>
+          <footer>You</footer>
+        </blockquote>
+
+        <blockquote>
+          <p><%= @answer %></p>
+          <footer>Your coach</footer>
+        </blockquote>
+        <p><%= link_to 'Ask a new question', ask_path %></p>
+      </div>
+    </div>
+  </div>
+</div>
